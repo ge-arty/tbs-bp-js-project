@@ -1,20 +1,80 @@
 .covid-container {
   max-width: 1920px;
   width: 100%;
-  background-color: #fff;
+  background-color: rgb(27, 27, 27);
   border: 1px solid rgb(27, 27, 27);
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 auto;
+  height: 100vh;
 }
 .covid-container .country-select {
   margin: 0 auto;
   display: block;
-  margin-top: 30px;
+  margin-top: 50px;
   overflow: auto;
+  height: 40px;
+  max-width: 300px;
+  width: 100%;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
 }
 .covid-container .global-container {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.covid-container .info-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.covid-container .more-info-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.covid-container .more {
+  margin: 0 auto;
   width: 100%;
-  margin-top: 40px;
+  max-width: 100px;
+  margin-top: 20px;
+  width: 280px;
+  height: 40px;
+}
+.covid-container .more:hover {
+  background-color: gray;
+}
+.covid-container .less {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100px;
+  margin-top: 20px;
+  width: 280px;
+  height: 40px;
+}
+.covid-container .less:hover {
+  background-color: gray;
+}
+.covid-container h2 {
+  color: #fff;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 60px;
 }/*# sourceMappingURL=style.css.map */
