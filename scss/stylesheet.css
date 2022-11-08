@@ -184,4 +184,9 @@ body .container .sign-up .scroll-down p {
   color: #fff;
   font-size: 16px;
   font-weight: bold;
+}
+body .container .our-team {
+  background: radial-gradient(#FFCB8D, #FFB966);
+  width: 100%;
+  height: 1048px;
 }/*# sourceMappingURL=stylesheet.css.map */
