@@ -1,1 +1,167 @@
-/*# sourceMappingURL=stylesheet.css.map */
+body .container {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+body .container header {
+  background-color: #1473E6;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body .container header nav {
+  max-width: 485px;
+  width: 100%;
+}
+body .container header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 485px;
+  width: 100%;
+}
+body .container header nav ul li {
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+}
+body .container header nav ul li:hover {
+  color: #000;
+}
+body .container header .header-logo {
+  font-size: 45px;
+  color: #fff;
+  font-weight: bold;
+  max-width: 90px;
+  width: 100%;
+}
+body .container header .search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+  height: 40px;
+}
+body .container header .search-box .search-input {
+  max-width: 500px;
+  width: 100%;
+  background-color: #1473E6;
+  border: none;
+  border-bottom: 2px solid #fff;
+  height: 40px;
+  color: #fff;
+  font-size: 20px;
+}
+body .container header .search-box .search-input:focus {
+  outline: none;
+}
+body .container header .search-box .search-icon {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  right: 0;
+}
+body .container .sign-up {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/Rectangle.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 775px;
+  -moz-column-gap: 57px;
+       column-gap: 57px;
+}
+body .container .sign-up .sign-up-box {
+  background-color: #fff;
+  max-width: 395px;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  row-gap: 35px;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+body .container .sign-up .sign-up-box .sign-up-box-title {
+  color: #000;
+  font-weight: bold;
+  font-size: 24px;
+}
+body .container .sign-up .sign-up-box .first-input-box {
+  width: 100%;
+  max-width: 260px;
+}
+body .container .sign-up .sign-up-box .second-input-box {
+  width: 100%;
+  max-width: 260px;
+}
+body .container .sign-up .sign-up-box .first-input-box p {
+  font-size: 14px;
+  color: #808080;
+}
+body .container .sign-up .sign-up-box .first-input-box input {
+  margin-top: 5px;
+  width: 100%;
+  max-width: 260px;
+  border: none;
+  border: 1px solid #D3D3D3;
+  border-radius: 5px;
+  height: 35px;
+}
+body .container .sign-up .sign-up-box .second-input-box p {
+  font-size: 14px;
+  color: #808080;
+}
+body .container .sign-up .sign-up-box .second-input-box input {
+  margin-top: 5px;
+  width: 100%;
+  max-width: 260px;
+  border: 1px solid #D3D3D3;
+  border-radius: 5px;
+  height: 35px;
+}
+body .container .sign-up .sign-up-box .submit-btn {
+  width: 100%;
+  max-width: 260px;
+  background-color: #D6D6D6;
+  border: none;
+  height: 35px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+body .container .sign-up .sign-up-box .forgot-pass {
+  font-size: 12px;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+}
+body .container .sign-up .sign-up-box .forgot-pass:hover {
+  -webkit-text-decoration: underline #000;
+          text-decoration: underline #000;
+}
+body .container .sign-up .sign-up-box .after-creating-account {
+  display: none;
+}
+body .container .sign-up .sign-up-text {
+  max-width: 370px;
+  width: 100%;
+  height: 170px;
+}
+body .container .sign-up .sign-up-text .sign-up-text-text {
+  font-size: 20px;
+  margin-top: 28px;
+}
+body .container .sign-up .sign-up-text .sign-up-text-title {
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+}/*# sourceMappingURL=stylesheet.css.map */
