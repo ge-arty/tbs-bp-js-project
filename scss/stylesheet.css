@@ -189,4 +189,56 @@ body .container .our-team {
   background: radial-gradient(#FFCB8D, #FFB966);
   width: 100%;
   height: 1048px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .container .our-team .team-member-large-icon {
+  max-width: 505px;
+  display: block;
+  width: 100%;
+  height: 640px;
+  background-image: url("../images/Rectangle2.png");
+}
+body .container .our-team .our-team-box {
+  width: 100%;
+  max-width: 670px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body .container .our-team .our-team-box .our-team-title {
+  font-size: 54px;
+  font-weight: bold;
+  color: #000;
+}
+body .container .our-team .our-team-box .our-team-text {
+  font-size: 16px;
+  margin-top: 10px;
+}
+body .container .our-team .our-team-box .team-members {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  width: 100%;
+  max-width: 670px;
+  margin-top: 15px;
+  height: 550px;
+}
+body .container .our-team .our-team-box .team-members .team-members-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .container .our-team .our-team-box .team-members .team-members-bot {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+body .container .our-team .our-team-box .team-members .team-members-cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }/*# sourceMappingURL=stylesheet.css.map */
