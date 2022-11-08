@@ -77,6 +77,7 @@ body .container .sign-up {
   height: 775px;
   -moz-column-gap: 57px;
        column-gap: 57px;
+  position: relative;
 }
 body .container .sign-up .sign-up-box {
   background-color: #fff;
@@ -163,5 +164,24 @@ body .container .sign-up .sign-up-text .sign-up-text-text {
 body .container .sign-up .sign-up-text .sign-up-text-title {
   font-size: 24px;
   color: #000;
+  font-weight: bold;
+}
+body .container .sign-up .scroll-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50px;
+  bottom: 30px;
+  flex-direction: column;
+}
+body .container .sign-up .scroll-down img {
+  display: block;
+  cursor: pointer;
+  margin-top: 10px;
+}
+body .container .sign-up .scroll-down p {
+  color: #fff;
+  font-size: 16px;
   font-weight: bold;
 }/*# sourceMappingURL=stylesheet.css.map */

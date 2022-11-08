@@ -76,6 +76,7 @@ body{
          background-size: cover;
          height: 775px;
          column-gap: 57px;
+         position: relative;
          .sign-up-box{
             background-color: #fff;
             max-width: 395px;
@@ -162,6 +163,26 @@ body{
                font-weight: bold;
             }
          }
+         .scroll-down{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            left: 50px;
+            bottom: 30px;
+            flex-direction: column;
+            img{
+               display: block;
+               cursor: pointer;
+               margin-top: 10px;
+            }
+            p {
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            }
+         }
+
       }
    }
 }
