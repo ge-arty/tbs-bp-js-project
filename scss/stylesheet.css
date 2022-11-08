@@ -239,6 +239,6 @@ body .container .our-team .our-team-box .team-members .team-members-bot {
 }
 body .container .our-team .our-team-box .team-members .team-members-cards {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }/*# sourceMappingURL=stylesheet.css.map */
