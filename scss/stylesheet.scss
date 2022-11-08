@@ -241,5 +241,82 @@ body{
             }
          }
       }
+      .testimonials{
+         width: 100%;
+         height: 1048px;
+         background-image: url("../images/Rectangle10.png");
+         background-repeat: no-repeat;
+         background-size: cover;
+         overflow: hidden;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+         .testimonials-title{
+            font-size: 54px;
+            color: #000;
+            font-weight: bold;
+           margin-top: 200px;
+         }
+         .testimonials-text{
+            font-size: 20px;
+            text-align: center;
+            margin-top: 20px;
+            width: 100%;
+            max-width: 570px;
+         }
+         .testimonials-cards{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 100%;
+            margin-top: 77px;
+            flex-wrap: wrap;
+            row-gap: 20px;
+            .card {
+               max-width: 370px;
+               width: 100%;
+               height: 270px;
+               background-color: #fff;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               flex-direction: column;
+               cursor: pointer;
+               &:hover{
+                  background-color: #0076FF;
+                  color: white; 
+               }
+               &:hover .card-text{
+                  font-weight: bold;
+                  color:#fff;
+               }
+               .card-text{
+                  width: 100%;
+                  max-width: 306px;
+                  color: #999999;
+                  font-size: 16px;
+               }
+               .card-box{
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  margin-top: 20px;
+               }
+               .card-box-info{
+                  margin-left: 20px;
+                  .name {
+                     font-size: 20px;
+                  }
+                  .company{
+                     font-size: 12px;
+                     font-weight: bold;
+                     margin-top: 10px;
+                  }
+               }
+            }
+         }
+
+      }
    }
 }
