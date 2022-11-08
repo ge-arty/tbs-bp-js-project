@@ -362,12 +362,12 @@ body{
          }
          .our-work-cards-box{
             display: flex;
-            justify-content: space-around;
+            justify-content: center;
             align-items: center;
             margin-top: 126px;
             width: 100%;
             max-width: 1600px;
-            flex-wrap: wrap;
+            column-gap: 10px;
             .blokchain-card{
                background-image: url("../images/Rectangle6.png");
                background-repeat: no-repeat;

@@ -363,12 +363,13 @@ body .container .our-work .our-works-btns button:hover {
 }
 body .container .our-work .our-work-cards-box {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   margin-top: 126px;
   width: 100%;
   max-width: 1600px;
-  flex-wrap: wrap;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
 }
 body .container .our-work .our-work-cards-box .blokchain-card {
   background-image: url("../images/Rectangle6.png");
