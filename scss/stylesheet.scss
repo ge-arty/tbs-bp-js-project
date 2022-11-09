@@ -182,7 +182,7 @@ body {
         align-items: center;
         position: absolute;
         left: 50px;
-        bottom: 30px;
+        bottom: 100px;
         flex-direction: column;
         img {
           display: block;
@@ -305,6 +305,7 @@ body {
         margin-top: 20px;
         width: 100%;
         max-width: 570px;
+        line-height: 1.6;
       }
       .testimonials-cards {
         display: flex;
@@ -379,6 +380,7 @@ body {
         width: 100%;
         max-width: 570px;
         margin-top: 17px;
+        line-height: 1.6;
       }
       .our-works-btns {
         display: flex;
@@ -467,6 +469,25 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
+      position: relative;
+      .scroll-up {
+        position: absolute;
+        bottom: 100px;
+        left: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        p {
+          font-weight: bold;
+          font-size: 16px;
+        }
+        .scroll-up-btn {
+          display: block;
+          cursor: pointer;
+          margin-bottom: 5px;
+        }
+      }
       .the-plan-box {
         margin-top: 170px;
         height: 800px;
@@ -485,6 +506,7 @@ body {
           max-width: 570px;
           margin: 0 auto;
           margin-top: 30px;
+          line-height: 1.6;
         }
         .the-plan-card-box {
           width: 100%;
@@ -613,6 +635,13 @@ body {
         color: #fff;
         width: 100%;
         max-width: 314px;
+        .footer-facebook {
+          margin-bottom: 10px;
+        }
+        .footer-twitter {
+          margin-bottom: 10px;
+          margin-left: 10px;
+        }
       }
     }
   }
