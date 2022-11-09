@@ -7,51 +7,34 @@ body .container {
   width: 100%;
   margin: 0 auto;
 }
-
 body .container header {
   background-color: #1473E6;
   width: 100%;
   height: 80px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-around;
+  align-items: center;
 }
-
 body .container header nav {
   max-width: 485px;
   width: 100%;
 }
-
 body .container header nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   max-width: 485px;
   width: 100%;
 }
-
 body .container header nav ul li {
   color: white;
   cursor: pointer;
   font-weight: bold;
   font-size: 20px;
 }
-
 body .container header nav ul li:hover {
   color: #000;
 }
-
 body .container header .header-logo {
   font-size: 45px;
   color: #fff;
@@ -59,23 +42,15 @@ body .container header .header-logo {
   max-width: 90px;
   width: 100%;
 }
-
 body .container header .search-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: flex-end;
+  align-items: center;
   position: relative;
   max-width: 500px;
   width: 100%;
   height: 40px;
 }
-
 body .container header .search-box .search-input {
   max-width: 500px;
   width: 0%;
@@ -88,81 +63,57 @@ body .container header .search-box .search-input {
   padding: 0;
   border-bottom: 2px solid #fff;
 }
-
 body .container header .search-box .search-input:focus {
   outline: none;
 }
-
 body .container header .search-box .search-icon {
   position: absolute;
   display: block;
   cursor: pointer;
   right: 0;
 }
-
 body .container .sign-up {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   background-image: url("../images/Rectangle.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 775px;
-  -webkit-column-gap: 57px;
-          column-gap: 57px;
+  -moz-column-gap: 57px;
+       column-gap: 57px;
   position: relative;
 }
-
 body .container .sign-up .sign-up-box {
   background-color: #fff;
   max-width: 395px;
   width: 100%;
   height: 450px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   row-gap: 35px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: center;
+  flex-direction: column;
   border-radius: 10px;
 }
-
 body .container .sign-up .sign-up-box .sign-up-box-title {
   color: #000;
   font-weight: bold;
   font-size: 24px;
 }
-
 body .container .sign-up .sign-up-box .first-input-box {
   width: 100%;
   max-width: 260px;
 }
-
 body .container .sign-up .sign-up-box .second-input-box {
   width: 100%;
   max-width: 260px;
 }
-
 body .container .sign-up .sign-up-box .first-input-box p {
   font-size: 14px;
   color: #1f1e1e;
 }
-
 body .container .sign-up .sign-up-box .first-input-box input {
   margin-top: 5px;
   width: 100%;
@@ -172,12 +123,10 @@ body .container .sign-up .sign-up-box .first-input-box input {
   border-radius: 5px;
   height: 35px;
 }
-
 body .container .sign-up .sign-up-box .second-input-box p {
   font-size: 14px;
   color: #1f1e1e;
 }
-
 body .container .sign-up .sign-up-box .second-input-box input {
   margin-top: 5px;
   width: 100%;
@@ -186,7 +135,6 @@ body .container .sign-up .sign-up-box .second-input-box input {
   border-radius: 5px;
   height: 35px;
 }
-
 body .container .sign-up .sign-up-box .submit-btn {
   width: 100%;
   max-width: 260px;
@@ -197,89 +145,63 @@ body .container .sign-up .sign-up-box .submit-btn {
   color: #fff;
   cursor: pointer;
 }
-
 body .container .sign-up .sign-up-box .forgot-pass {
   font-size: 12px;
   font-weight: bold;
   color: #000;
   cursor: pointer;
 }
-
 body .container .sign-up .sign-up-box .forgot-pass:hover {
   -webkit-text-decoration: underline #000;
           text-decoration: underline #000;
 }
-
 body .container .sign-up .sign-up-box .after-creating-account {
   display: none;
   font-weight: bold;
   font-size: 20px;
-  color: #155804;
+  color: rgb(21, 88, 4);
 }
-
 body .container .sign-up .sign-up-text {
   max-width: 370px;
   width: 100%;
   height: 170px;
 }
-
 body .container .sign-up .sign-up-text .sign-up-text-text {
   font-size: 20px;
   margin-top: 28px;
 }
-
 body .container .sign-up .sign-up-text .sign-up-text-title {
   font-size: 24px;
   color: #000;
   font-weight: bold;
 }
-
 body .container .sign-up .scroll-down {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   left: 50px;
   bottom: 30px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 body .container .sign-up .scroll-down img {
   display: block;
   cursor: pointer;
   margin-top: 10px;
 }
-
 body .container .sign-up .scroll-down p {
   color: #fff;
   font-size: 16px;
   font-weight: bold;
 }
-
 body .container .our-team {
   background: radial-gradient(#FFCB8D, #FFB966);
   width: 100%;
   height: 1048px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
-
 body .container .our-team .team-member-large-icon {
   max-width: 505px;
   display: block;
@@ -287,131 +209,78 @@ body .container .our-team .team-member-large-icon {
   height: 640px;
   background-image: url("../images/Rectangle2.png");
 }
-
 body .container .our-team .our-team-box {
   width: 100%;
   max-width: 670px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-
 body .container .our-team .our-team-box .our-team-title {
   font-size: 54px;
   font-weight: bold;
   color: #000;
 }
-
 body .container .our-team .our-team-box .our-team-text {
   font-size: 16px;
   margin-top: 10px;
 }
-
 body .container .our-team .our-team-box .team-members {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   row-gap: 50px;
   width: 100%;
   max-width: 670px;
   margin-top: 15px;
   height: 400px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 body .container .our-team .our-team-box .team-members .team-members-top {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   max-width: 580px;
 }
-
 body .container .our-team .our-team-box .team-members .team-members-bot {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   max-width: 580px;
 }
-
 body .container .our-team .our-team-box .team-members .team-members-cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   width: 100%;
   max-width: 250px;
 }
-
 body .container .our-team .our-team-box .team-members .team-members-cards .team-member-position {
   font-weight: bold;
   margin-top: 5px;
 }
-
 body .container .our-team .our-team-box .team-members .team-members-cards h3 {
   font-size: 30px;
   font-weight: bold;
 }
-
 body .container .our-team .our-team-box .team-members .team-members-cards .team-member-info {
   margin-left: 15px;
   max-width: 135px;
   width: 100%;
 }
-
 body .container .our-team .our-team-box .team-members .team-members-cards .team-member-media {
   margin-top: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-column-gap: 10px;
-          column-gap: 10px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  align-items: center;
 }
-
 body .container .our-team .our-team-box .team-members .team-members-cards .team-member-media img {
   display: block;
 }
-
 body .container .testimonials {
   width: 100%;
   height: 1048px;
@@ -419,28 +288,17 @@ body .container .testimonials {
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-
 body .container .testimonials .testimonials-title {
   font-size: 54px;
   color: #000;
   font-weight: bold;
   margin-top: 200px;
 }
-
 body .container .testimonials .testimonials-text {
   font-size: 20px;
   text-align: center;
@@ -448,117 +306,73 @@ body .container .testimonials .testimonials-text {
   width: 100%;
   max-width: 570px;
 }
-
 body .container .testimonials .testimonials-cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-evenly;
+  align-items: center;
   width: 100%;
   margin-top: 77px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   row-gap: 20px;
 }
-
 body .container .testimonials .testimonials-cards .card {
   max-width: 370px;
   width: 100%;
   height: 270px;
   background-color: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   cursor: pointer;
-  -webkit-transition: opacity 3s;
   transition: opacity 3s;
 }
-
 body .container .testimonials .testimonials-cards .card:hover {
   background-color: #0076FF;
   color: white;
 }
-
 body .container .testimonials .testimonials-cards .card:hover .card-text {
   font-weight: bold;
   color: #fff;
 }
-
 body .container .testimonials .testimonials-cards .card .card-text {
   width: 100%;
   max-width: 306px;
   color: #999999;
   font-size: 16px;
 }
-
 body .container .testimonials .testimonials-cards .card .card-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   margin-top: 20px;
 }
-
 body .container .testimonials .testimonials-cards .card .card-box-info {
   margin-left: 20px;
 }
-
 body .container .testimonials .testimonials-cards .card .card-box-info .name {
   font-size: 20px;
 }
-
 body .container .testimonials .testimonials-cards .card .card-box-info .company {
   font-size: 12px;
   font-weight: bold;
   margin-top: 10px;
 }
-
 body .container .our-work {
   background-image: url("../images/Rectangle7.png");
   width: 100%;
   height: 1387px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
 }
-
 body .container .our-work .our-work-title {
   font-size: 56px;
   color: #fff;
   font-weight: bold;
   margin-top: 111px;
 }
-
 body .container .our-work .our-work-text {
   font-size: 20px;
   color: #fff;
@@ -566,20 +380,12 @@ body .container .our-work .our-work-text {
   max-width: 570px;
   margin-top: 17px;
 }
-
 body .container .our-work .our-works-btns {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   margin-top: 55px;
 }
-
 body .container .our-work .our-works-btns button {
   display: block;
   color: #fff;
@@ -592,52 +398,39 @@ body .container .our-work .our-works-btns button {
   font-size: 16px;
   cursor: pointer;
 }
-
 body .container .our-work .our-works-btns button:hover {
   background-color: #378EF0;
 }
-
 body .container .our-work .our-work-cards-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   margin-top: 126px;
   width: 100%;
   max-width: 1600px;
-  -webkit-column-gap: 10px;
-          column-gap: 10px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
 }
-
 body .container .our-work .our-work-cards-box .blockchain-card {
   background-image: url("../images/Rectangle6.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 body .container .our-work .our-work-cards-box .fintech-card {
   background-image: url("../images/Rectangle4.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 body .container .our-work .our-work-cards-box .neobank-card {
   background-image: url("../images/Rectangle3.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 body .container .our-work .our-work-cards-box .ai-card {
   background-image: url("../images/Rectangle5.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 body .container .our-work .our-work-cards-box .our-work-cards {
   background-color: #DBDBDB;
   width: 100%;
@@ -645,13 +438,11 @@ body .container .our-work .our-work-cards-box .our-work-cards {
   height: 584px;
   border-radius: 15px;
 }
-
 body .container .our-work .our-work-cards-box .our-work-cards img {
   margin-top: 184px;
   margin-left: 32px;
   display: block;
 }
-
 body .container .our-work .our-work-cards-box .our-work-cards h3 {
   margin-left: 32px;
   font-size: 40px;
@@ -661,7 +452,6 @@ body .container .our-work .our-work-cards-box .our-work-cards h3 {
   width: 100%;
   max-width: 135px;
 }
-
 body .container .our-work .our-work-cards-box .our-work-cards p {
   margin-left: 32px;
   margin-top: 13px;
@@ -670,4 +460,113 @@ body .container .our-work .our-work-cards-box .our-work-cards p {
   width: 100%;
   max-width: 206px;
 }
-/*# sourceMappingURL=stylesheet.css.map */
+body .container .the-plan {
+  width: 100%;
+  background-color: #fff;
+  height: 1030px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container .the-plan .the-plan-box {
+  margin-top: 170px;
+  height: 800px;
+  width: 100%;
+  max-width: 910px;
+}
+body .container .the-plan .the-plan-box .the-plan-box-title {
+  text-align: center;
+  font-size: 56px;
+  font-weight: bold;
+  color: #333;
+}
+body .container .the-plan .the-plan-box p {
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+  max-width: 570px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+body .container .the-plan .the-plan-box .the-plan-card-box {
+  width: 100%;
+  height: 560px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  margin-top: 60px;
+}
+body .container .the-plan .the-plan-box .the-plan-card-box .the-plan-card {
+  max-width: 270px;
+  width: 100%;
+  border-radius: 15px;
+  background-color: #EFEFEF;
+  height: 560px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+body .container .the-plan .the-plan-box .the-plan-card-box .the-plan-card:hover {
+  background-color: #0076FF;
+  color: white;
+}
+body .container .the-plan .the-plan-box .the-plan-card-box .the-plan-card:hover .the-plan-card-title {
+  color: #fff;
+}
+body .container .the-plan .the-plan-box .the-plan-card-box .the-plan-card:hover .the-plan-card-icon {
+  background-image: url("../images/cpu.png");
+}
+body .container .the-plan .the-plan-box .the-plan-card-box .the-plan-card:hover .the-plan-card-price {
+  color: #fff;
+}
+body .container .the-plan .the-plan-box .the-plan-card-box .the-plan-card .the-plan-card-icon {
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  background-image: url("../images/cpu1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body .container .the-plan .the-plan-box .the-plan-card-box .the-plan-card .the-plan-card-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #323232;
+}
+body .container .the-plan .the-plan-box .the-plan-card-box .the-plan-card .the-plan-card-info {
+  width: 100%;
+  max-width: 147px;
+  height: 350px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+body .container .the-plan .the-plan-box .the-plan-card-box .the-plan-card .the-plan-card-info .the-plan-card-text {
+  line-height: 1.8;
+  font-weight: bold;
+  font-size: 16px;
+}
+body .container .the-plan .the-plan-box .the-plan-card-box .the-plan-card .the-plan-card-info .the-plan-card-price {
+  font-size: 56px;
+  font-weight: bold;
+  color: #323232;
+}
+body .container .the-plan .the-plan-box .the-plan-card-box .the-plan-card .the-plan-card-info .the-plan-card-btn {
+  display: block;
+  border: 3px solid #323232;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 103px;
+  height: 40px;
+  font-size: 14px;
+  color: #323232;
+  font-weight: bold;
+  cursor: pointer;
+}
+body .container .the-plan .the-plan-box .the-plan-card-box .the-plan-card .the-plan-card-info .the-plan-card-btn:hover {
+  color: #fff;
+  background-color: #FC9A25;
+  border: 3px solid #FC9A25;
+}/*# sourceMappingURL=stylesheet.css.map */
