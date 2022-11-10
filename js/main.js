@@ -124,16 +124,16 @@ scrollUpBtn.addEventListener("click", function () {
 // --------the plan card hide functional
 let planCard = document.querySelector(".the-plan-card");
 let planIconBtn = document.querySelectorAll(".the-plan-card-icon-box");
-console.log(planCard);
 planIconBtn.forEach((element) => {
   element.addEventListener("click", function () {
     clickCounter++;
-    element.parentElement.classList.toggle("height");
-    if (clickCounter % 2 == 1) {
+    if (clickCounter % 2 != 0) {
       element.parentElement.querySelector(".the-plan-card-info").style.display =
         "flex";
+      element.parentElement.classList.toggle("height");
     }
     if (clickCounter % 2 == 0) {
+      element.parentElement.classList.toggle("height");
       element.parentElement.querySelector(".the-plan-card-info").style.display =
         "none";
     }
