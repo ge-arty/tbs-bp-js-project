@@ -1232,18 +1232,23 @@ body {
       max-width: 480px;
       width: 100%;
       margin: 0 auto;
+      position: relative;
       header {
         background-color: #1473e6;
         width: 100%;
         padding: 20px 0;
         display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-around;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
         align-items: center;
         flex-wrap: wrap;
+        z-index: 1;
+        position: fixed;
+        top: 0;
         nav {
           max-width: 485px;
           width: 100%;
+          padding-top: 10px;
           ul {
             display: flex;
             justify-content: space-between;
@@ -1276,6 +1281,7 @@ body {
           max-width: 500px;
           width: 100%;
           height: 40px;
+          display: none;
           .search-input {
             max-width: 500px;
             width: 0%;
@@ -1310,6 +1316,7 @@ body {
         padding-top: 129px;
         padding-bottom: 195px;
         column-gap: 57px;
+        flex-direction: column-reverse;
         position: relative;
         .sign-up-box {
           background-color: #fff;
@@ -1393,6 +1400,7 @@ body {
           .sign-up-text-text {
             font-size: 20px;
             margin-top: 28px;
+            margin-bottom: 10px;
           }
           .sign-up-text-title {
             font-size: 24px;
@@ -1454,6 +1462,7 @@ body {
             margin-top: 10px;
             width: 100%;
             max-width: 500px;
+            text-align: center;
           }
           .team-members {
             display: flex;
@@ -1464,6 +1473,7 @@ body {
             max-width: 800px;
             margin-top: 15px;
             height: 400px;
+            flex-direction: column;
           }
         }
       }
@@ -1568,12 +1578,18 @@ body {
           max-width: 570px;
           margin-top: 17px;
           line-height: 1.6;
+          text-align: center;
         }
         .our-works-btns {
           display: flex;
           justify-content: center;
           align-items: center;
           margin-top: 55px;
+          flex-wrap: wrap;
+          gap: 10px;
+          .all {
+            display: none;
+          }
         }
         .our-works-btns button {
           display: block;
@@ -1597,7 +1613,8 @@ body {
           margin-top: 126px;
           width: 100%;
           max-width: 1600px;
-          column-gap: 10px;
+          row-gap: 10px;
+          flex-wrap: wrap;
           .blockchain-card {
             background-image: url("../images/Rectangle6.png");
             background-repeat: no-repeat;
@@ -1607,23 +1624,26 @@ body {
             background-image: url("../images/Rectangle4.png");
             background-repeat: no-repeat;
             background-size: cover;
+            display: none;
           }
           .neobank-card {
             background-image: url("../images/Rectangle3.png");
             background-repeat: no-repeat;
             background-size: cover;
+            display: none;
           }
           .ai-card {
             background-image: url("../images/Rectangle5.png");
             background-repeat: no-repeat;
             background-size: cover;
+            display: none;
           }
           .our-work-cards {
             background-color: #dbdbdb;
             width: 100%;
             max-width: 360px;
-            padding-top: 40px;
-            padding-bottom: 40px;
+            padding-top: 20px;
+            padding-bottom: 20px;
             border-radius: 15px;
             img {
               margin-top: 184px;
@@ -1698,14 +1718,15 @@ body {
           }
           .the-plan-card-box {
             width: 100%;
-            height: 560px;
+            height: 500px;
             display: flex;
             align-items: center;
-            justify-content: space-between;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
             background-color: #fff;
             margin-top: 60px;
             .the-plan-card {
-              max-width: 270px;
+              max-width: 200px;
               width: 100%;
               border-radius: 15px;
               background-color: #efefef;
@@ -1792,6 +1813,12 @@ body {
                 }
               }
             }
+            .card-second {
+              display: none;
+            }
+            .card-third {
+              display: none;
+            }
           }
         }
       }
@@ -1819,6 +1846,7 @@ body {
           color: #fff;
           font-size: 56px;
           font-weight: bold;
+          display: none;
         }
         .footer-right-box {
           color: #fff;
