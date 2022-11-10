@@ -121,3 +121,99 @@ let scrollUpBtn = document.querySelector(".scroll-up-btn");
 scrollUpBtn.addEventListener("click", function () {
   document.documentElement.scrollTop = 0;
 });
+// --------the plan card hide functional
+let planCard = document.querySelector(".the-plan-card")
+let planIconBtn = document.querySelectorAll(".the-plan-card-icon-box")
+console.log(planCard)
+planIconBtn.forEach((element)=>{
+element.addEventListener("click",function(){
+  clickCounter++
+element.parentElement.classList.toggle("height");
+if (clickCounter%2==1){
+  element.parentElement.querySelector(".the-plan-card-info").style.display = "flex";
+}
+if (clickCounter%2==0){
+  element.parentElement.querySelector(".the-plan-card-info").style.display = "none";
+}
+})
+})
+// --------------------------our - team photos functional
+let data = [
+  {
+      img: 'https://images.unsplash.com/photo-1667829186138-55120b70d731?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
+      fullname: 'Sebastian Bennett',
+      position: 'Founder',
+      mediaFacebook:'./images/facebook1.png',
+      mediaTwitter:'./images/twitter1.png'
+  },
+  {
+      img: 'https://plus.unsplash.com/premium_photo-1667222138752-4dac8aae7f09?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
+      fullname: 'Graham Griffiths',
+      position: 'Manager',
+      mediaFacebook:'./images/facebook1.png',
+      mediaTwitter:'./images/twitter1.png'
+  },
+  {
+      img: 'https://images.unsplash.com/photo-1667874382127-a3639d6c9964?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
+      fullname: 'Monica Bottger',
+      position: 'Designer',
+      mediaFacebook:'./images/facebook1.png',
+      mediaTwitter:'./images/twitter1.png'
+  },
+  {
+      img: 'https://images.unsplash.com/photo-1667723457637-c7e3c9b8b903?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80',
+      fullname: 'Leona Hurt',
+      position: 'Developer',
+      mediaFacebook:'./images/facebook1.png',
+      mediaTwitter:'./images/twitter1.png'
+  },
+]
+ 
+let teamMembersBox = document.querySelector(".team-members")
+data.forEach((element)=>{
+  let teamMemberPhoto = teamMembersBox.appendChild(document.createElement("div"))
+ teamMemberPhoto.style.backgroundImage = `url(${element.img})`
+ teamMemberPhoto.style.cursor = "pointer"
+ teamMemberPhoto.style.width = "100px";
+ teamMemberPhoto.style.height = "100px";
+ teamMemberPhoto.style.backgroundSize = "cover";
+ teamMemberPhoto.style.backgroundPosition ="center"
+ teamMemberPhoto.style.borderRadius = "50%"
+ let teamMembersInfoBox = teamMembersBox.appendChild(document.createElement("div"))
+ teamMembersInfoBox.style.display ="flex"
+ teamMembersInfoBox.style.flexDirection = "column"
+ teamMembersInfoBox.style.justifyContent= "space-between"
+ teamMembersInfoBox.style.alignItems= "center"
+ teamMembersInfoBox.style.width = "50px";
+ teamMembersInfoBox.style.height = "100px";
+ teamMembersInfoBox .style.marginLeft = "-10px"
+ let teamMembersInfoName = teamMembersInfoBox.appendChild(document.createElement("p"))
+ teamMembersInfoName.innerText = element.fullname
+ teamMembersInfoName.style.fontWeight = "bold"
+ teamMembersInfoName.style.fontSize = "20px"
+ let teamMembersInfoPosition = teamMembersInfoBox.appendChild(document.createElement("p"))
+ teamMembersInfoPosition.innerText = element.position
+
+let mediaContainer = document.createElement("div")
+teamMembersInfoBox.appendChild(mediaContainer)
+let teamMembersInfoMediaFacebook = mediaContainer.appendChild(document.createElement("a"))
+let teamMembersInfoMediaFacebookImg = teamMembersInfoMediaFacebook.appendChild(document.createElement("img"))
+teamMembersInfoMediaFacebook.href = `https://facebook.com`
+teamMembersInfoMediaFacebookImg.src = `${element.mediaFacebook}`
+
+
+
+let teamMembersInfoMediaTwitter = mediaContainer.appendChild(document.createElement("a"))
+let teamMembersInfoMediaTwitterImg = teamMembersInfoMediaTwitter.appendChild(document.createElement("img"))
+teamMembersInfoMediaTwitter.href = `https://twitter.com`
+teamMembersInfoMediaTwitterImg.src = `${element.mediaTwitter}`
+teamMembersInfoMediaTwitter.style.marginLeft  = "10px";
+
+let largeIconBox = document.querySelector(".team-member-large-icon")
+
+teamMemberPhoto.addEventListener("click",function(){
+   largeIconBox.style.backgroundImage = `url(${element.img})`;
+   largeIconBox.style.display = "block";
+})
+})
+
