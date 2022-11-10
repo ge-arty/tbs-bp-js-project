@@ -12,7 +12,7 @@ body .container {
   margin: 0 auto;
 }
 body .container header {
-  background-color: #1473e6;
+  background-color: #0b55af;
   width: 100%;
   padding: 20px 0;
   display: flex;
@@ -620,7 +620,7 @@ body .container footer .footer-right-box .footer-twitter {
     margin: 0 auto;
   }
   body .container header {
-    background-color: #1473e6;
+    background-color: #0b55af;
     width: 100%;
     padding: 20px 0;
     display: flex;
@@ -1230,7 +1230,7 @@ body .container footer .footer-right-box .footer-twitter {
     position: relative;
   }
   body .container header {
-    background-color: #1473e6;
+    background-color: #0b55af;
     width: 100%;
     padding: 20px 0;
     display: flex;
@@ -1404,7 +1404,7 @@ body .container footer .footer-right-box .footer-twitter {
   }
   body .container .sign-up .sign-up-text .sign-up-text-title {
     font-size: 24px;
-    color: #000;
+    color: rgb(34, 177, 170);
     font-weight: bold;
   }
   body .container .sign-up .scroll-down {
