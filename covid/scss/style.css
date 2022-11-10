@@ -1,15 +1,14 @@
 .covid-container {
   max-width: 1920px;
   width: 100%;
-  background-color: #1b1b1b;
-  border: 1px solid #1b1b1b;
+  background-color: rgb(27, 27, 27);
+  border: 1px solid rgb(27, 27, 27);
   color: white;
   font-size: 30px;
   font-weight: bold;
   margin: 0 auto;
   height: 100vh;
 }
-
 .covid-container .country-select {
   margin: 0 auto;
   display: block;
@@ -22,55 +21,30 @@
   color: black;
   font-weight: bold;
 }
-
 .covid-container .global-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  flex-direction: column;
   width: 300px;
   margin: 0 auto;
   margin-top: 100px;
 }
-
 .covid-container .info-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  flex-direction: column;
   width: 300px;
   margin: 0 auto;
   margin-top: 100px;
 }
-
 .covid-container .more-info-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  flex-direction: column;
   width: 300px;
   margin: 0 auto;
   margin-top: 20px;
 }
-
 .covid-container .more {
   margin: 0 auto;
   width: 100%;
@@ -79,11 +53,9 @@
   width: 280px;
   height: 40px;
 }
-
 .covid-container .more:hover {
   background-color: gray;
 }
-
 .covid-container .less {
   margin: 0 auto;
   width: 100%;
@@ -92,26 +64,17 @@
   width: 280px;
   height: 40px;
 }
-
 .covid-container .less:hover {
   background-color: gray;
 }
-
 .covid-container h2 {
   color: #fff;
   margin: 0 auto;
   width: 100%;
   max-width: 200px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   margin-top: 60px;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

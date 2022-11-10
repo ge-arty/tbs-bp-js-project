@@ -14,10 +14,11 @@ body {
     header {
       background-color: #1473e6;
       width: 100%;
-      height: 80px;
+      padding: 20px 0;
       display: flex;
       justify-content: space-around;
       align-items: center;
+      flex-wrap: wrap;
       nav {
         max-width: 485px;
         width: 100%;
@@ -84,14 +85,16 @@ body {
       background-image: url("../images/Rectangle.png");
       background-repeat: no-repeat;
       background-size: cover;
-      height: 775px;
+      padding-top: 129px;
+      padding-bottom: 195px;
       column-gap: 57px;
       position: relative;
       .sign-up-box {
         background-color: #fff;
         max-width: 395px;
         width: 100%;
-        height: 450px;
+        padding-top: 62px;
+        padding-bottom: 96px;
         display: flex;
         justify-content: center;
         row-gap: 35px;
@@ -165,7 +168,6 @@ body {
       .sign-up-text {
         max-width: 370px;
         width: 100%;
-        height: 170px;
         .sign-up-text-text {
           font-size: 20px;
           margin-top: 28px;
@@ -199,17 +201,17 @@ body {
     .our-team {
       background: radial-gradient(#ffcb8d, #ffb966);
       width: 100%;
-      height: 1048px;
       display: flex;
       align-items: center;
       justify-content: center;
-      flex-wrap: ;
+      flex-wrap: wrap;
       .team-member-large-icon {
         max-width: 400px;
         display: none;
         width: 100%;
-        height: 640px;
+        height: 500px;
         background-size: cover;
+        margin-bottom: 20px;
       }
       .our-team-box {
         width: 100%;
@@ -219,6 +221,7 @@ body {
         align-items: center;
         flex-direction: column;
         flex-wrap: wrap;
+        padding-top: 150px;
         .our-team-title {
           font-size: 54px;
           font-weight: bold;
@@ -235,7 +238,6 @@ body {
           align-items: center;
           justify-content: space-evenly;
           flex-wrap: wrap;
-          row-gap: 50px;
           width: 100%;
           max-width: 800px;
           margin-top: 15px;
@@ -245,7 +247,6 @@ body {
     }
     .testimonials {
       width: 100%;
-      height: 1048px;
       background-image: url("../images/Rectangle10.png");
       background-repeat: no-repeat;
       background-size: cover;
@@ -254,11 +255,12 @@ body {
       align-items: center;
       justify-content: center;
       flex-direction: column;
+      padding-top: 200px;
+      padding-bottom: 100px;
       .testimonials-title {
         font-size: 54px;
         color: #000;
         font-weight: bold;
-        margin-top: 200px;
       }
       .testimonials-text {
         font-size: 20px;
@@ -323,8 +325,10 @@ body {
     }
     .our-work {
       background-image: url("../images/Rectangle7.png");
+      background-repeat: no-repeat;
       width: 100%;
-      height: 1387px;
+      padding-top: 111px;
+      padding-bottom: 221px;
       display: flex;
       justify-content: flex-start;
       align-items: center;
@@ -396,7 +400,8 @@ body {
           background-color: #dbdbdb;
           width: 100%;
           max-width: 360px;
-          height: 584px;
+          padding-top: 184px;
+          padding-bottom: 158px;
           border-radius: 15px;
           img {
             margin-top: 184px;
@@ -426,7 +431,8 @@ body {
     .the-plan {
       width: 100%;
       background-color: #fff;
-      height: 1030px;
+      padding-bottom: 100px;
+      padding-top: 100px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -450,7 +456,6 @@ body {
         }
       }
       .the-plan-box {
-        margin-top: 170px;
         height: 800px;
         width: 100%;
         max-width: 910px;
@@ -537,7 +542,7 @@ body {
               width: 100%;
               max-width: 147px;
               height: 350px;
-              display:none;
+              display: none;
               justify-content: space-around;
               align-items: center;
               flex-direction: column;
@@ -570,7 +575,7 @@ body {
     }
     footer {
       width: 100%;
-      height: 330px;
+      padding: 50px 0;
       background-image: url("../images/Rectangle7.png");
       background-size: cover;
       background-repeat: no-repeat;
