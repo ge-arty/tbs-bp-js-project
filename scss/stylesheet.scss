@@ -613,3 +613,615 @@ body {
     }
   }
 }
+
+// -----------1024
+@media (max-width: 1024px) {
+  body {
+    .container {
+      max-width: 1920px;
+      width: 100%;
+      margin: 0 auto;
+      header {
+        background-color: #1473e6;
+        width: 100%;
+        padding: 20px 0;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        nav {
+          max-width: 485px;
+          width: 100%;
+          ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 485px;
+            width: 100%;
+            li {
+              color: white;
+              cursor: pointer;
+              font-weight: bold;
+              font-size: 20px;
+              &:hover {
+                color: #000;
+              }
+            }
+          }
+        }
+        .header-logo {
+          font-size: 45px;
+          color: #fff;
+          font-weight: bold;
+          max-width: 90px;
+          width: 100%;
+        }
+        .search-box {
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          position: relative;
+          max-width: 500px;
+          width: 100%;
+          height: 40px;
+          .search-input {
+            max-width: 500px;
+            width: 0%;
+            background-color: #1473e6;
+            border: none;
+            height: 40px;
+            color: #fff;
+            font-size: 20px;
+            display: block;
+            padding: 0;
+            border-bottom: 2px solid #fff;
+            &:focus {
+              outline: none;
+            }
+          }
+          .search-icon {
+            position: absolute;
+            display: block;
+            cursor: pointer;
+            right: 0;
+          }
+        }
+      }
+      .sign-up {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        background-image: url("../images/Rectangle.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 129px;
+        padding-bottom: 195px;
+        column-gap: 57px;
+        position: relative;
+        .sign-up-box {
+          background-color: #fff;
+          max-width: 395px;
+          width: 100%;
+          padding-top: 62px;
+          padding-bottom: 96px;
+          display: flex;
+          justify-content: center;
+          row-gap: 35px;
+          align-items: center;
+          flex-direction: column;
+          border-radius: 10px;
+          .sign-up-box-title {
+            color: #000;
+            font-weight: bold;
+            font-size: 24px;
+          }
+          .first-input-box {
+            width: 100%;
+            max-width: 260px;
+          }
+          .second-input-box {
+            width: 100%;
+            max-width: 260px;
+          }
+          .first-input-box p {
+            font-size: 14px;
+            color: #1f1e1e;
+          }
+          .first-input-box input {
+            margin-top: 5px;
+            width: 100%;
+            max-width: 260px;
+            border: none;
+            border: 1px solid #d3d3d3;
+            border-radius: 5px;
+            height: 35px;
+          }
+          .second-input-box p {
+            font-size: 14px;
+            color: #1f1e1e;
+          }
+          .second-input-box input {
+            margin-top: 5px;
+            width: 100%;
+            max-width: 260px;
+            border: 1px solid #d3d3d3;
+            border-radius: 5px;
+            height: 35px;
+          }
+          .submit-btn {
+            width: 100%;
+            max-width: 260px;
+            background-color: #d6d6d6;
+            border: none;
+            height: 35px;
+            border-radius: 5px;
+            color: #fff;
+            cursor: pointer;
+          }
+          .forgot-pass {
+            font-size: 12px;
+            font-weight: bold;
+            color: #000;
+            cursor: pointer;
+            &:hover {
+              text-decoration: underline #000;
+            }
+          }
+          .after-creating-account {
+            display: none;
+            font-weight: bold;
+            font-size: 20px;
+            color: rgb(21, 88, 4);
+          }
+        }
+        .sign-up-text {
+          max-width: 370px;
+          width: 100%;
+          .sign-up-text-text {
+            font-size: 20px;
+            margin-top: 28px;
+          }
+          .sign-up-text-title {
+            font-size: 24px;
+            color: #000;
+            font-weight: bold;
+          }
+        }
+        .scroll-down {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: absolute;
+          left: 50px;
+          bottom: 100px;
+          flex-direction: column;
+          img {
+            display: block;
+            cursor: pointer;
+            margin-top: 10px;
+          }
+          p {
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+          }
+        }
+      }
+      .our-team {
+        background: radial-gradient(#ffcb8d, #ffb966);
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        .team-member-large-icon {
+          max-width: 400px;
+          display: none;
+          width: 100%;
+          height: 500px;
+          background-size: cover;
+          margin-bottom: 20px;
+        }
+        .our-team-box {
+          width: 100%;
+          max-width: 900px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          flex-wrap: wrap;
+          padding-top: 150px;
+          .our-team-title {
+            font-size: 54px;
+            font-weight: bold;
+            color: #000;
+          }
+          .our-team-text {
+            font-size: 16px;
+            margin-top: 10px;
+            width: 100%;
+            max-width: 500px;
+          }
+          .team-members {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            width: 100%;
+            max-width: 800px;
+            margin-top: 15px;
+            height: 400px;
+          }
+        }
+      }
+      .testimonials {
+        width: 100%;
+        background-image: url("../images/Rectangle10.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 200px;
+        padding-bottom: 100px;
+        .testimonials-title {
+          font-size: 54px;
+          color: #000;
+          font-weight: bold;
+        }
+        .testimonials-text {
+          font-size: 20px;
+          text-align: center;
+          margin-top: 20px;
+          width: 100%;
+          max-width: 570px;
+          line-height: 1.6;
+        }
+        .testimonials-cards {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          width: 100%;
+          margin-top: 77px;
+          flex-wrap: wrap;
+          row-gap: 20px;
+          .card {
+            max-width: 370px;
+            width: 100%;
+            height: 270px;
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            cursor: pointer;
+            transition: opacity 3s;
+            &:hover {
+              background-color: #0076ff;
+              color: white;
+            }
+            &:hover .card-text {
+              font-weight: bold;
+              color: #fff;
+            }
+            .card-text {
+              width: 100%;
+              max-width: 306px;
+              color: #999999;
+              font-size: 16px;
+            }
+            .card-box {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-top: 20px;
+            }
+            .card-box-info {
+              margin-left: 20px;
+              .name {
+                font-size: 20px;
+              }
+              .company {
+                font-size: 12px;
+                font-weight: bold;
+                margin-top: 10px;
+              }
+            }
+          }
+        }
+      }
+      .our-work {
+        background-image: url("../images/Rectangle7.png");
+        background-repeat: no-repeat;
+        width: 100%;
+        padding-top: 111px;
+        padding-bottom: 221px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        .our-work-title {
+          font-size: 56px;
+          color: #fff;
+          font-weight: bold;
+          margin-top: 111px;
+        }
+        .our-work-text {
+          font-size: 20px;
+          color: #fff;
+          width: 100%;
+          max-width: 570px;
+          margin-top: 17px;
+          line-height: 1.6;
+        }
+        .our-works-btns {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 55px;
+        }
+        .our-works-btns button {
+          display: block;
+          color: #fff;
+          background: none;
+          border: 1px solid #fff;
+          width: 130px;
+          height: 50px;
+          border-radius: 5px;
+          font-weight: bold;
+          font-size: 16px;
+          cursor: pointer;
+          &:hover {
+            background-color: #378ef0;
+          }
+        }
+        .our-work-cards-box {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 126px;
+          width: 100%;
+          max-width: 1600px;
+          column-gap: 10px;
+          .blockchain-card {
+            background-image: url("../images/Rectangle6.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          .fintech-card {
+            background-image: url("../images/Rectangle4.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          .neobank-card {
+            background-image: url("../images/Rectangle3.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          .ai-card {
+            background-image: url("../images/Rectangle5.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          .our-work-cards {
+            background-color: #dbdbdb;
+            width: 100%;
+            max-width: 360px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            border-radius: 15px;
+            img {
+              margin-top: 184px;
+              margin-left: 32px;
+              display: block;
+            }
+            h3 {
+              margin-left: 32px;
+              font-size: 40px;
+              font-weight: bold;
+              color: #000;
+              margin-top: 5px;
+              width: 100%;
+              max-width: 135px;
+            }
+            p {
+              margin-left: 32px;
+              margin-top: 13px;
+              color: #999999;
+              font-size: 16px;
+              width: 100%;
+              max-width: 206px;
+            }
+          }
+        }
+      }
+      .the-plan {
+        width: 100%;
+        background-color: #fff;
+        padding-bottom: 100px;
+        padding-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        .scroll-up {
+          position: absolute;
+          bottom: 50px;
+          left: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          p {
+            font-weight: bold;
+            font-size: 16px;
+          }
+          .scroll-up-btn {
+            display: block;
+            cursor: pointer;
+            margin-bottom: 5px;
+          }
+        }
+        .the-plan-box {
+          height: 800px;
+          width: 100%;
+          max-width: 910px;
+          .the-plan-box-title {
+            text-align: center;
+            font-size: 56px;
+            font-weight: bold;
+            color: #333;
+          }
+          p {
+            text-align: center;
+            font-size: 20px;
+            width: 100%;
+            max-width: 570px;
+            margin: 0 auto;
+            margin-top: 30px;
+            line-height: 1.6;
+          }
+          .the-plan-card-box {
+            width: 100%;
+            height: 560px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #fff;
+            margin-top: 60px;
+            .the-plan-card {
+              max-width: 270px;
+              width: 100%;
+              border-radius: 15px;
+              background-color: #efefef;
+              height: 130px;
+              display: flex;
+              justify-content: space-around;
+              align-items: center;
+              flex-direction: column;
+              .the-plan-card-title {
+                font-size: 24px;
+                font-weight: bold;
+                color: #323232;
+              }
+              .the-plan-card-price {
+                font-size: 56px;
+                font-weight: bold;
+                color: #323232;
+              }
+              .the-plan-card-icon-box {
+                width: 100%;
+                max-width: 70px;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                .the-plan-card-icon {
+                  width: 26px;
+                  height: 26px;
+                  cursor: pointer;
+                  background-image: url("../images/cpu1.png");
+                  background-size: cover;
+                  background-repeat: no-repeat;
+                }
+              }
+              &:hover {
+                background-color: #0076ff;
+                color: white;
+
+                .the-plan-card-icon {
+                  background-image: url("../images/cpu.png");
+                }
+                .the-plan-card-title {
+                  color: #fff;
+                }
+                .the-plan-card-price {
+                  color: #fff;
+                }
+              }
+
+              &:hover .the-plan-card-icon-box {
+                border-radius: 50%;
+                background-color: #3392ff;
+              }
+              .the-plan-card-info {
+                width: 100%;
+                max-width: 147px;
+                height: 350px;
+                display: none;
+                justify-content: space-around;
+                align-items: center;
+                flex-direction: column;
+                .the-plan-card-text {
+                  line-height: 1.8;
+                  font-weight: bold;
+                  font-size: 16px;
+                }
+                .the-plan-card-btn {
+                  display: block;
+                  border: 3px solid #323232;
+                  border-radius: 20px;
+                  width: 100%;
+                  max-width: 103px;
+                  height: 40px;
+                  font-size: 14px;
+                  color: #323232;
+                  font-weight: bold;
+                  cursor: pointer;
+                  &:hover {
+                    color: #fff;
+                    background-color: #fc9a25;
+                    border: 3px solid #fc9a25;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      footer {
+        width: 100%;
+        padding: 50px 0;
+        background-image: url("../images/Rectangle7.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .footer-left-box {
+          width: 100%;
+          max-width: 338px;
+          color: #fff;
+          .footer-title {
+            text-align: center;
+            font-size: 20px;
+            margin-bottom: 10px;
+          }
+        }
+        .footer-logo {
+          color: #fff;
+          font-size: 56px;
+          font-weight: bold;
+        }
+        .footer-right-box {
+          color: #fff;
+          width: 100%;
+          max-width: 314px;
+          .footer-facebook {
+            margin-bottom: 10px;
+          }
+          .footer-twitter {
+            margin-bottom: 10px;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+}
