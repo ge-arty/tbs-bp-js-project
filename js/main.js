@@ -125,6 +125,7 @@ scrollUpBtn.addEventListener("click", function () {
 let planCard = document.querySelector(".the-plan-card");
 let planIconBtn = document.querySelectorAll(".the-plan-card-icon-box");
 planIconBtn.forEach((element) => {
+  let clickCounter = 0;
   element.addEventListener("click", function () {
     clickCounter++;
     if (clickCounter % 2 != 0) {
@@ -137,6 +138,7 @@ planIconBtn.forEach((element) => {
       element.parentElement.querySelector(".the-plan-card-info").style.display =
         "none";
     }
+    console.log(clickCounter);
   });
 });
 // --------------------------our - team photos functional
