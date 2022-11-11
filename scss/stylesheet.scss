@@ -1837,6 +1837,10 @@ body {
           width: 100%;
           max-width: 338px;
           color: #fff;
+          margin-left: 10px;
+          p {
+            text-align: center;
+          }
           .footer-title {
             text-align: center;
             font-size: 20px;
@@ -1853,8 +1857,15 @@ body {
           color: #fff;
           width: 100%;
           max-width: 314px;
+          margin-left: 10px;
+          p {
+            max-width: 200px;
+            width: 100%;
+            text-align: center;
+          }
           .footer-facebook {
             margin-bottom: 10px;
+            margin-left: 65px;
           }
           .footer-twitter {
             margin-bottom: 10px;
