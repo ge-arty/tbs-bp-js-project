@@ -1249,7 +1249,7 @@ body .container footer .footer-right-box .footer-twitter {
   }
   body .container header nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     max-width: 485px;
     width: 100%;
