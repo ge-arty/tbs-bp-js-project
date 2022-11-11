@@ -1451,6 +1451,7 @@ body .container footer .footer-right-box .footer-twitter {
     flex-direction: column;
     flex-wrap: wrap;
     padding-top: 150px;
+    padding-bottom: 20px;
   }
   body .container .our-team .our-team-box .our-team-title {
     font-size: 54px;
