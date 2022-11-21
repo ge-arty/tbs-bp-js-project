@@ -59,7 +59,7 @@ body .container header .search-box {
 body .container header .search-box .search-input {
   max-width: 500px;
   width: 0%;
-  background-color: #1473e6;
+  background-color: #0b55af;
   border: none;
   height: 40px;
   color: #fff;
@@ -1283,7 +1283,7 @@ body .container footer .footer-right-box .footer-twitter {
   body .container header .search-box .search-input {
     max-width: 500px;
     width: 0%;
-    background-color: #1473e6;
+    background-color: #0b55af;
     border: none;
     height: 40px;
     color: #fff;
